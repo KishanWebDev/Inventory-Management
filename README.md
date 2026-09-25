@@ -57,15 +57,8 @@ A production-ready REST API built with Node.js and Express for user authenticati
 
 ## AI Usage
 
-In accordance with the task guidelines:
-
-- **AI Tools Used**: Antigravity AI / Claude / Gemini
-- **What they were used for**:
-  - Drafting the modular architecture (`src/modules/{auth,products,orders}`)
-  - Implementing the atomic decrement logic and MongoDB replica-set transaction sessions
-  - Formulating strict Zod schemas with edge-case validation (e.g., rejecting client-supplied `totalAmount`, normalizing payload variants)
-  - Generating integration tests in `tests/api.test.js` to simulate concurrent bursts of requests
-  - Configuring and troubleshooting the cloud deployment on Render
+- **AI Tool Used:** ChatGPT
+- **Used for:** Understanding the assignment requirements, repository/Git troubleshooting, and README review.
 
 ---
 
@@ -101,7 +94,7 @@ postman/
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/Priyanshu69-web/Inventory-Management.git
+git clone https://github.com/KishanWebDev/Inventory-Management.git
 cd Inventory-Management
 npm install
 ```
